@@ -1,5 +1,6 @@
 package com.example.task;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SearchItemTest extends TestBase {
@@ -18,7 +19,8 @@ public class SearchItemTest extends TestBase {
         app.getItem().enterSearchField(secondItem);
 
         String firstItem = app.getItem().getFirstItemName("2");
-        System.out.println(firstItem);
+
+        Assert.assertTrue(firstItem.toLowerCase().contains(secondItem.toLowerCase()));
 //       Найти и проверить, что наименование товара соответствует запомненному значению.
 
     }
