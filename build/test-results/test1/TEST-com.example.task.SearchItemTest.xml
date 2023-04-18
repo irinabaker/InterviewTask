@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.task.SearchItemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-18T14:47:08" hostname="DESKTOP-MIE8JAS" time="10.907">
+  <properties/>
+  <testcase name="searchItem" classname="com.example.task.SearchItemTest" time="10.907"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting Microsoft Edge WebDriver 112.0.1722.34 (649b7446f96f116d8dc7d1c2d92d06583649e244) on port 40615
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Apr 18, 2023 4:47:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 110
+]]></system-err>
+</testsuite>

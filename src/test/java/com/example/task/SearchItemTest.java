@@ -21,7 +21,6 @@ public class SearchItemTest extends TestBase {
         String firstItem = app.getItem().getFirstItemName("2");
 
         Assert.assertTrue(firstItem.toLowerCase().contains(secondItem.toLowerCase()));
-//       Найти и проверить, что наименование товара соответствует запомненному значению.
 
     }
 
